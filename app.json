@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Akhyana",
+    "slug": "akhyana",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "akhyana",
+    "userInterfaceStyle": "light",
+    "android": {
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#FFFFFF"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
